@@ -6,6 +6,7 @@ import javax.swing.JLabel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import org.json.JSONException;
+import javax.swing.JPanel;
 
 
 public final class Fondobase extends javax.swing.JFrame {
