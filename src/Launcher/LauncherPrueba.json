@@ -1,144 +1,63 @@
 {
-    "grados": [
-    {
-        "nombre": "Grado 0",
-        "simuladores": [
+    "Grados": [
         {
-            "titulo": "Embarque",
-            "descripcion": "Embarque y desembarque en helicóptero.",
-            "imagen": "Embarque"  
+            "nombre": "Grado0,",
+            "simuladores": [{
+                    "titulo": "simulador0",
+                    "descripcion": "Despega hacia nuevas aventuras con nuestro helicóptero Vuela alto y alcanza tus metas en un instante",
+                    "imagen":"src/Pics/Embarque0.png"
+            },{
+                    "titulo": "simulador1",
+                    "descripcion": "Un trabajador de la construcción, concentrado en su tarea, con casco y equipo de seguridad, realizando labores esenciales en el sitio de obra. Su esfuerzo contribuye al progreso de un gran proyecto",
+                    "imagen":"src/Pics/Embarque1.png"
+            },{
+                
+                    "titulo": "simulador2",
+                    "descripcion": "Un avión vuela alto, cruzando el cielo con rapidez y precisión, rumbo a su destino",
+                    "imagen":"src/Pics/Embarque2.png"
+                    
+            },{
+                
+                    "titulo": "simulador3",
+                    "descripcion": "Un peón de obra, con su equipo de seguridad, se encuentra dentro de un avión, listo para realizar tareas en altura o en lugares remotos",
+                    "imagen":"src/Pics/Embarque3.png"
+                    
+            },{
+                
+                    "titulo": "simulador4",
+                    "descripcion": "Un helipuerto en la azotea de un edificio, listo para recibir helicópteros y facilitar el transporte aéreo rápido y eficiente",
+                    "imagen":"src/Pics/Embarque4.png"
+                 
+           
+            }]
         },
-        {
-            "titulo": "Ascensor",
-            "descripcion": "Embarque0.",
-            "imagen": "Hemorragia"
-        },
-        {
-            "titulo": "EPIS",
-            "descripcion": "Embarque1.",
-            "imagen": "Extincion"
-        },
-        {
-            "titulo": "Extincion",
-            "descripcion": "Embarque2.",
-            "imagen": "EPIS"
-        },
-        {
-            "titulo": "Helicoptero",
-            "descripcion": "Embarque3.",
-            "imagen": "Helicoptero"
-        },
-        {
-            "titulo": "Hemorragia",
-            "descripcion": "Embarque4.",
-            "imagen": "Ascensor"
+        
+        {   "nombre": "Grado1,",
+            "ascensores": [{
+                    "titulo": "ascensor0",
+                    "descripcion": "Despega hacia nuevas aventuras con nuestro helicóptero Vuela alto y alcanza tus metas en un instante",
+                    "imagen":"src/Pics/Ascensor0.png"
+            },{
+                
+                    "titulo": "ascensor1",
+                    "descripcion": "Despega hacia nuevas aventuras con nuestro helicóptero Vuela alto y alcanza tus metas en un instante",
+                    "imagen":"src/Pics/Ascensor1.png"
+            },{
+                
+                    "titulo": "ascensor2",
+                    "descripcion": "Despega hacia nuevas aventuras con nuestro helicóptero Vuela alto y alcanza tus metas en un instante",
+                    "imagen":"src/Pics/Ascensor2.png"
+            },{
+                    "titulo": "ascensor3",
+                    "descripcion": "Despega hacia nuevas aventuras con nuestro helicóptero Vuela alto y alcanza tus metas en un instante",
+                    "imagen":"src/Pics/Ascensor3.png"
+            }, {       
+                    "titulo": "ascensor4",
+                    "descripcion": "Despega hacia nuevas aventuras con nuestro helicóptero Vuela alto y alcanza tus metas en un instante",
+                    "imagen":"src/Pics/Ascensor4.png"
+            } ]
         }
-        ]
-    },
-    {
-        "nombre": "Grado 1",
-        "simuladores": [
-        {
-            "titulo": "Hemorragia",
-            "descripcion": "Protocolo ante una hemorragia interna.",
-            "imagen": "src/images/Grado1.png"
-        },
-        {
-            "titulo": "Embarque",
-            "descripcion": "Hemorragia0.",
-            "imagen": "src/images/Hemorragia0.png"
-        },
-        {
-            "titulo": "Extincion",
-            "descripcion": "Hemorragia1.",
-            "imagen": "src/images/Hemorragia1.png"
-        },
-        {
-            "titulo": "EPIS",
-            "descripcion": "Hemorragia2.",
-            "imagen": "src/images/Hemorragia2.png"
-        },
-        {
-            "titulo": "Helicoptero",
-            "descripcion": "Hemorragia3.",
-            "imagen": "src/images/Hemorragia3.png"
-        },
-        {
-            "titulo": "Ascensor",
-            "descripcion": "Hemorragia4.",
-            "imagen": "src/images/Hemorragia4.png"
-        }
-        ]
-   },
-   {
-        "nombre": "Grado 2",
-        "simuladores": [
-        {
-            "titulo": "Grado2",
-            "descripcion": "Maniobras de extinción según la instalación.",
-            "imagen": "src/images/Grado2.png"
-        },
-        {
-            "titulo": "Extincion0",
-            "descripcion": "Extincion0.",
-            "imagen": "src/images/Extincion0.png"
-        },
-        {
-            "titulo": "Extincion1",
-            "descripcion": "Extincion1.",
-            "imagen": "src/images/Extincion1.png"
-        },
-        {
-            "titulo": "Extincion2",
-            "descripcion": "Extincion2.",
-            "imagen": "src/images/Extincion2.png"
-        },
-        {
-            "titulo": "Extincion3",
-            "descripcion": "Extincion3.",
-            "imagen": "src/images/Extincion3.png"
-        },
-        {
-            "titulo": "Extincion4",
-            "descripcion": "Extincion4.",
-            "imagen": "src/images/Extincion4.png"
-        }
-        ]
-   },
-   {
-        "nombre": "Grado 3",
-        "simuladores": [
-       {
-            "titulo": "Grado3",
-            "descripcion": "Tipologia y caracteríticas de los EPIs .",
-            "imagen": "src/images/Grado3.png"
-        },
-        {
-            "titulo": "EPIS0",
-            "descripcion": "EPIS0.",
-            "imagen": "src/images/EPIS0.png"
-        },
-        {
-            "titulo": "EPIS1",
-            "descripcion": "EPIS1.",
-            "imagen": "src/images/EPIS1.png"
-        },
-        {
-            "titulo": "EPIS2",
-            "descripcion": "EPIS2.",
-            "imagen": "src/images/EPIS2.png"
-        },
-        {
-            "titulo": "EPIS3",
-            "descripcion": "Extincion3.",
-            "imagen": "src/images/Extincion3.png"
-        },
-        {
-            "titulo": "Extincion4",
-            "descripcion": "Extincion4.",
-            "imagen": "src/images/Extincion4.png"
-        }
-   ]
-   }
-]   
-}
+     ]
+      
+        
+ }
